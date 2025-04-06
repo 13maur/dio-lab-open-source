@@ -2,9 +2,21 @@ body {
     text-align: center;
     font-family: Arial, sans-serif;
 }
-.bar {
+
+.dot {
     fill: steelblue;
+    stroke: black;
 }
-.bar:hover {
+
+.dot:hover {
     fill: orange;
+}
+
+.tooltip {
+    position: absolute;
+    padding: 5px;
+    background: white;
+    border: 1px solid black;
+    display: none;
+    font-size: 14px;
 }
